@@ -1,0 +1,14 @@
+server:
+  port: ${PORT:8081}
+  
+logging:
+  level: debug
+  
+management:
+  security:
+    enabled: false
+    
+app:
+    config:
+        property:
+            string: Patrick Cardoso
